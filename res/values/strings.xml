@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kuwinda</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="def_group_name">Group Name</string>
+    <string name="service_description">This Service begins the background search. It launches a notification as soon as the search is completed.</string>
+    <string-array name="menu_array">
+        <item>Search</item>
+        <item>Group</item>
+        <item>Send Feedback</item>
+        <item>About</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_explore">Search &amp; Explore</string>
+    <string name="create_group_">Create Group</string>
+
+</resources>

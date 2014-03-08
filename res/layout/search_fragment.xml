@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6F7" >
+
+    <LinearLayout
+        android:id="@+id/box_rectangle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/defaultGroupSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etSearchDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/search_explore" >
+            <requestFocus />
+        </EditText>
+        
+        
+    </LinearLayout>
+
+    	<ListView
+    	    android:id="@+id/box_bookmarks"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignLeft="@+id/box_rectangle"
+    	    android:layout_alignRight="@+id/box_rectangle"
+    	    android:layout_below="@+id/box_rectangle"
+    	    android:background="#ffffff" >
+
+    	</ListView>
+
+</RelativeLayout>
